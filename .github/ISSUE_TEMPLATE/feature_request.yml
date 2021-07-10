@@ -11,7 +11,8 @@ body:
     attributes:
       label: Summary
       description: A clear and brief summary of the request.
-    validations: True
+    validations: 
+      required: True
   - type: dropdown
     id: module
     attributes:
@@ -23,7 +24,8 @@ body:
         - Help
         - General
         - Other
-    validations: True
+    validations: 
+      required: True
     
       
       
