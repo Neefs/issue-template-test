@@ -1,0 +1,30 @@
+name: Feature request
+about: Suggest an idea for this project
+labels: [feature request]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+      Thank you for taking the time to fill out this feature request.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and brief summary of the request.
+    validations: True
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      description: Where does this feature belong?
+      options:
+        - Value
+        - Developer
+        - Help
+        - General
+        - Other
+    validations: True
+    
+      
+      
