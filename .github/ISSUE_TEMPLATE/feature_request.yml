@@ -5,8 +5,7 @@ labels: [feature request]
 body:
   - type: markdown
     attributes:
-      value: |
-      Thank you for taking the time to fill out this feature request.
+      value: Thank you for taking the time to fill out this feature request.
   - type: input
     id: summary
     attributes:
